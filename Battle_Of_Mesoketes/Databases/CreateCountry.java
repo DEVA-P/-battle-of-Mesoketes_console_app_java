@@ -6,8 +6,8 @@ import Battle_Of_Mesoketes.Walls.GroupWalls;
 public class CreateCountry {
 
     private static void give_Warning_To_Builder(Country country) {
-        System.out.println("Welcome Chief  " + country.getBuilderName() + "______");
-        System.out.println("________OUR COUNTRY IS UNDER ATTACK");
+        System.out.println("Welcome Chief,  " + country.getBuilderName() + "______");
+        System.out.println("________OUR COUNTRY IS UNDER ATTACK_______Make BIG WALLS TO PROTECT!!!");
     }
 
     private static Country setCountry(String countryName, String builderName) {
