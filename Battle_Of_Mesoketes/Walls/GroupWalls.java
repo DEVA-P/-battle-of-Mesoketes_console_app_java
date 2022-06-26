@@ -12,18 +12,8 @@ public class GroupWalls {
         setSouth(new SouthWall());
         setEast(new EastWall());
         setWest(new WestWall());
-    }
-    
-    // public void setFuntion(String direction, int length) {
-    //     if(direction == "N")
-    //         north.setInitialHeight(length);
-    //     else if(direction == "S")
-    //         south.setInitialHeight(length);
-    //     else if(direction == "W")
-    //         west.setInitialHeight(length);
-    //     else if(direction == "E")
-    //         east.setInitialHeight(length);
-    // }
+    } 
+
     public NorthWall getNorth() {
         return north;
     }

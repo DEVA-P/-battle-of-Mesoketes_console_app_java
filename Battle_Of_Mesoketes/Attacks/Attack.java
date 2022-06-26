@@ -2,7 +2,7 @@ package Battle_Of_Mesoketes.Attacks;
 
 import Battle_Of_Mesoketes.Models.Tribe;
 
-//class to map the tribes with their strength and their direction to attack among walls
+//class to group the tribes with their strength and their direction to attack among walls
 //eg tribe class, strength, direction
 public class Attack {
 

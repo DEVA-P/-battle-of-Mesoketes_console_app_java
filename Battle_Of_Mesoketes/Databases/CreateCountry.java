@@ -14,7 +14,7 @@ public class CreateCountry extends CountryDatabase {
         Country country = new Country();
         country.setCountryName(countryName);
         country.setBuilderName(builderName);
-        setCountryDetails(country, countryName);
+        // setCountryDetails(country, countryName);
         return country;
     }
 

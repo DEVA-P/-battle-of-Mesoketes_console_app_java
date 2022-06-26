@@ -1,4 +1,4 @@
-package Battle_Of_Mesoketes;
+package Battle_Of_Mesoketes.Main;
 
 import Battle_Of_Mesoketes.Attacks.Attack;
 import Battle_Of_Mesoketes.Attacks.EveryDayAttack;
@@ -24,26 +24,29 @@ public class StartWar extends Segregator {
     private static boolean equals(String attackDir, String direction) {
         return attackDir.equals(direction);
     }
-    
+
     private static void update_South_Walls_temporary(GroupWalls newGroupWalls, Attack attack, BattleDatabase battle) {
         newGroupWalls.getSouth().setInitialHeight(
-                            Math.max(newGroupWalls.getSouth().getInitialHeight(), attack.getStrength()));
-                    battle.setSuccessful_attacks();
+                Math.max(newGroupWalls.getSouth().getInitialHeight(), attack.getStrength()));
+        battle.setSuccessful_attacks();
     }
+
     private static void update_North_Walls_temporary(GroupWalls newGroupWalls, Attack attack, BattleDatabase battle) {
         newGroupWalls.getNorth().setInitialHeight(
-                            Math.max(newGroupWalls.getNorth().getInitialHeight(), attack.getStrength()));
-                    battle.setSuccessful_attacks();
+                Math.max(newGroupWalls.getNorth().getInitialHeight(), attack.getStrength()));
+        battle.setSuccessful_attacks();
     }
-    private static void update_East_Walls_temporary(GroupWalls newGroupWalls, Attack attack, BattleDatabase battle){
+
+    private static void update_East_Walls_temporary(GroupWalls newGroupWalls, Attack attack, BattleDatabase battle) {
         newGroupWalls.getEast().setInitialHeight(
-                            Math.max(newGroupWalls.getEast().getInitialHeight(), attack.getStrength()));
-                    battle.setSuccessful_attacks();
+                Math.max(newGroupWalls.getEast().getInitialHeight(), attack.getStrength()));
+        battle.setSuccessful_attacks();
     }
-    private static void update_West_Walls_temporary(GroupWalls newGroupWalls, Attack attack, BattleDatabase battle){
+
+    private static void update_West_Walls_temporary(GroupWalls newGroupWalls, Attack attack, BattleDatabase battle) {
         newGroupWalls.getWest().setInitialHeight(
-                            Math.max(newGroupWalls.getWest().getInitialHeight(), attack.getStrength()));
-                    battle.setSuccessful_attacks();
+                Math.max(newGroupWalls.getWest().getInitialHeight(), attack.getStrength()));
+        battle.setSuccessful_attacks();
     }
 
     private static void findSuccess(BattleDatabase battle) {

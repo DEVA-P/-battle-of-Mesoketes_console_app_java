@@ -7,21 +7,21 @@ public class Walls {
     //NorthWall
     //SouthWall
     ///// are the child classes for the Walls class
-    private int initialHeight;
+    private int height ;
 
     public Walls(){
         //walls.initialHeight is initialized to zero whenever the object is initialized
-        this.initialHeight = 0;
+        this.height = 0;
     }
     
     public  int getInitialHeight() {
-        return initialHeight;
+        return height;
     }
-    public  void setInitialHeight(int initialHeight) {
-        this.initialHeight = initialHeight;
+    public  void setInitialHeight(int height) {
+        this.height = height;
     }
     @Override
     public String toString() {
-        return "Walls [initialHeight=" + initialHeight + "]";
+        return "Walls [initialHeight=" + height + "]";
     } 
 }

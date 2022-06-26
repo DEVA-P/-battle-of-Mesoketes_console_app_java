@@ -10,7 +10,6 @@ public class TribeDatabase {
     // singleton instances
     
     // private static TribeDatabase instances = null;
-
     // public static TribeDatabase getInstance() {
     // if(instances == null)
     // return instances = new TribeDatabase();

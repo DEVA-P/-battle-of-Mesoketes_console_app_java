@@ -1,4 +1,4 @@
-package Battle_Of_Mesoketes;
+package Battle_Of_Mesoketes.Main;
 
 import java.util.ArrayList;
 

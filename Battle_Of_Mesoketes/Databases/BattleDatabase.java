@@ -1,7 +1,6 @@
 package Battle_Of_Mesoketes.Databases;
 
-import Battle_Of_Mesoketes.Attacks.EveryDayAttack;
-// import Battle_Of_Mesoketes.Walls.GroupWalls;
+import Battle_Of_Mesoketes.Attacks.EveryDayAttack; 
 
 import java.util.*;
 
