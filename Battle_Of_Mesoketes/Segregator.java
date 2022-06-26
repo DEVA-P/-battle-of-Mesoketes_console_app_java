@@ -69,6 +69,7 @@ public class Segregator extends GroupCountryWalls {
     }
 
     public static ArrayList<EveryDayAttack> segrator(String attack) {
+        //calling segrators to segragate the required data and map to their respective classes
         return segrators(attack);
     }
 }

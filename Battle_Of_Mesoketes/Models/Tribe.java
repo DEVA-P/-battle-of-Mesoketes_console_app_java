@@ -1,6 +1,7 @@
 package Battle_Of_Mesoketes.Models;
 
 public class Tribe {
+    // class to mark the tribe and their respective weaponName
     private String tribeName;
     private String weaponName;
 

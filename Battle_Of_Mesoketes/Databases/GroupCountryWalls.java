@@ -4,6 +4,7 @@ import Battle_Of_Mesoketes.Models.Country;
 import Battle_Of_Mesoketes.Walls.GroupWalls;
 
 public class GroupCountryWalls {
+        // this class is to map the country with the walls on four directions
         private Country country;
         private GroupWalls groupWalls;
 

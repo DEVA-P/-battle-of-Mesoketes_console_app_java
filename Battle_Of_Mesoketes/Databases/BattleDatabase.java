@@ -9,6 +9,7 @@ public class BattleDatabase {
     private int successful_attacks;
     private int failed_attacks;
     private GroupCountryWalls database;
+    //ArrayList of Attacks mapped with the day in EveryDayAttack class
     private ArrayList<EveryDayAttack> attacks;
 
     public GroupCountryWalls getDatabase() {
@@ -17,11 +18,7 @@ public class BattleDatabase {
 
     public void setDatabase(GroupCountryWalls database) {
         this.database = database;
-    }
-    // public void setMinimum_wall_height_in_future(GroupWalls
-    // minimum_wall_height_in_future) {
-    // this.minimum_wall_height_in_future = minimum_wall_height_in_future;
-    // }
+    } 
 
     public ArrayList<EveryDayAttack> getAttacks() {
         return attacks;

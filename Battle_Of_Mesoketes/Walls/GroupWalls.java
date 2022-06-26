@@ -1,6 +1,7 @@
 package Battle_Of_Mesoketes.Walls;
 
 public class GroupWalls { 
+    //Grouping four walls to have the entire square area as mentioned in the question
     private NorthWall north;
     private SouthWall south;
     private EastWall east;

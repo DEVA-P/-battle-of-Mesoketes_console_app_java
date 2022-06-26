@@ -3,7 +3,7 @@ package Battle_Of_Mesoketes.Databases;
 import Battle_Of_Mesoketes.Models.Country;
 import Battle_Of_Mesoketes.Walls.GroupWalls;
 
-public class CreateCountry {
+public class CreateCountry extends CountryDatabase {
 
     private static void give_Warning_To_Builder(Country country) {
         System.out.println("Welcome Chief,  " + country.getBuilderName() + "______");
@@ -14,7 +14,7 @@ public class CreateCountry {
         Country country = new Country();
         country.setCountryName(countryName);
         country.setBuilderName(builderName);
-        CountryDatabase.setCountryDetails(country, countryName);
+        setCountryDetails(country, countryName);
         return country;
     }
 
@@ -23,7 +23,7 @@ public class CreateCountry {
         GroupCountryWalls groupCountryWalls = new GroupCountryWalls();
         groupCountryWalls.setCountry(newCountry);
         groupCountryWalls.setGroupWalls(new GroupWalls());
-        CountryDatabase.setEntireCountry(groupCountryWalls, countryName);
+        setEntireCountry(groupCountryWalls, countryName);
         give_Warning_To_Builder(newCountry);
     }
 
