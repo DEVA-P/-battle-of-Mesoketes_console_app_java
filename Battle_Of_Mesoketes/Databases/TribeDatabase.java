@@ -6,9 +6,9 @@ import Battle_Of_Mesoketes.Models.Tribe;
 
 public class TribeDatabase {
     private static HashMap<String, Tribe> TribeDb = new HashMap<String, Tribe>();
-    
+
     // singleton instances
-    
+
     // private static TribeDatabase instances = null;
     // public static TribeDatabase getInstance() {
     // if(instances == null)

@@ -21,7 +21,7 @@ public class CreateCountry extends CountryDatabase {
     private static void create_Country(String countryName, String builderName) {
         Country newCountry = setCountry(countryName, builderName);
         GroupCountryWalls groupCountryWalls = new GroupCountryWalls();
-        groupCountryWalls.setCountry(newCountry);
+        groupCountryWalls.setCountry(newCountry); 
         groupCountryWalls.setGroupWalls(new GroupWalls());
         setEntireCountry(groupCountryWalls, countryName);
         give_Warning_To_Builder(newCountry);

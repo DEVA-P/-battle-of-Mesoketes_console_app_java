@@ -12,13 +12,13 @@ public class Index extends CreateCountry {
         String default_Builder_Name = "Deva";
         try {
             createCountry(default_Country_Name, default_Builder_Name);
-            System.out.print("Attack-Code :");
+            System.out.print("Enter Attack-Code :");
             String attacks = scanner.nextLine();
             int successful_attacks = StartWar.startWar(default_Country_Name, attacks);
-            System.out.println(successful_attacks);
-            
+            System.out.println("Successfull Attacks : " + successful_attacks);
+
         } catch (Exception e) {
-            System.out.println("Exception caught :"+ e.getMessage());
+            System.out.println("Exception caught : " + e.getMessage());
         }
     }
 }
